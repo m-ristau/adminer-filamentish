@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/demo/adf_0005_server-overview-mock.png" alt="Adminer Server Overiew with filamentish Theme" style="width: 100%; max-width: 800px;" />
+<img src="/demo/adf_0009_structure-mock-social.png" alt="Adminer Server Overiew with filamentish Theme" style="width: 100%; max-width: 800px;" />
 
 # filamentish - an Adminer Dark Theme
 A dark theme for [Adminer](https://www.adminer.org) based on the work [Adminer-Design-Dark](https://github.com/pepa-linha/Adminer-Design-Dark) from Pepa Linha inspired by [filament](https://github.com/filamentphp/filament).
