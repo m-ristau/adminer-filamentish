@@ -15,7 +15,7 @@ A dark theme for [Adminer](https://www.adminer.org) based on the work [Adminer-D
 3. Place it on the same level like your `adminer.php` file.
 
 ## Compability
-I did my configurations at adminer version `5.1.0` and some testing including using it in production without issues.
+I did my configurations at adminer version `5.2.1` and some testing including using it in production without issues.
 Please feel free to report issues when you encounter one!
 
 ## Background
