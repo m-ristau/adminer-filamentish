@@ -8,6 +8,7 @@
 | @support  github.com/m-ristau/adminer-filamentish
 | @credit   github.com/pepa-linha/Adminer-Design-Dark
 | @license  MIT License
+| @version  <=5.2.1
 |------------------------------------------------------
 */
 
@@ -78,7 +79,7 @@
 
     /* Buttons */
     --color-button-background: var(--color-green);
-    --color-button-text: var(--color-green-dark);
+    --color-button-text: var(--color-green-light);
     --color-button-disabled-background: rgba(0, 0, 0, 0.13);
     --color-button-disabled-text: rgba(255, 255, 255, 0.2);
     --shadow-button: 0 3px 20px 0 rgba(93, 241, 220, 0.06);
@@ -1126,10 +1127,48 @@ select {
     margin: 0 var(--ui-content-spacing) 0 calc(var(--ui-sidebar-width) + var(--ui-content-spacing));
     padding: 25px 0 10px;
 }
+p.logout {
+    background: none;
+    box-shadow: none;
+}
 /* Sticky footer with actions */
-.footer > div {}
-/* The small static toolbar after footer */
-.footer + div {}
+div.footer > div {}
+/* Small toolbar after footer */
+div.footer + div {}
+
+/*
+===============================================
+=          WIP Temp fixes for 5.2.1           =
+===============================================
+*/
+
+input[type="submit"],
+input[type="button"] {
+    color: var(--color-white);
+}
+button.icon.icon-move {
+    border-radius: 0;
+    background-color: var(--color-background-shade);
+    opacity: 1;
+    color: var(--color-text-highlight);
+}
+#menu h1 #logo {
+    display: none;
+}
+p.logout {
+    background: none;
+    box-shadow: none;
+}
+div.footer  {
+    box-shadow: none;
+    bottom: auto;
+}
+@media all and (max-width:800px) {
+  #menu {
+    box-shadow: none;
+    border-color: var(--color-border);
+  }
+}
 
 
 /*
