@@ -22,11 +22,11 @@ Please feel free to report issues when you encounter one!
 > For quite some time i use Adminer for local and production development.
 > After noticing the original getting contributions again, i scratched switching to a fork.
 >
-> Since there wasnt a "dark" theme matching my tase, sp i started playing inside the closest match.
+> Since there wasnt a "dark" theme matching my tase, i started playing inside the closest match.
 > Inspiried from the way filament present clean minimal interfaces, i infliced  some chaos in the CSS.
 > Even this wasnt the best practice doing so, why not flip my suffer to your pleasure?
 >
-> *If some victims may be spotted here, or some chad vibecoding even more downwards - i might show some love on this.
+> *If some victims may be spotted here, or some chad vibecoding more more downwards - i might show some love on this.
 > Since this is my first in life public repo, sorry in advance and try to be constructive on the death threats.*
 
 ## Credits
